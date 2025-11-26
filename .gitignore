@@ -1,0 +1,11 @@
+build/*
+*/build/*
+*/.iml/*
+
+output
+
+.git
+.gradle
+.idea
+
+hs_err_*.log

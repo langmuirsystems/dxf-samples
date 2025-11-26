@@ -1,0 +1,54 @@
+name: Update Generated Files
+
+on:
+  workflow_dispatch: # Allows manual triggering
+  push:
+    branches: [ master ]
+    paths:
+      - 'samples/**/*.dxf'
+      - 'samples/**/*.png'
+      - 'scripts/*'
+
+jobs:
+  update-files:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install PowerShell
+        run: |
+          wget -q https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb
+          sudo dpkg -i packages-microsoft-prod.deb
+          sudo apt-get update
+          sudo apt-get install -y powershell
+
+      - name: Generate Gallery
+        run: |
+          pwsh ./scripts/Generate-Gallery.ps1 -GitHubToken ${{ secrets.GITHUB_TOKEN }} -Owner ${{ github.repository_owner }} -Repo ${{ github.event.repository.name }} -OutputFile README.md
+
+      - name: Generate Properties File
+        run: |
+          pwsh ./scripts/Generate-Dxf-Properties.ps1 -GitHubToken ${{ secrets.GITHUB_TOKEN }} -Owner ${{ github.repository_owner }} -Repo ${{ github.event.repository.name }}
+
+      - name: Add custom header to README
+        run: |
+          echo "# This repository provides a set of DXF files samples" > README.tmp
+          echo "" >> README.tmp
+          cat README.md >> README.tmp
+          mv README.tmp README.md
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add README.md samples/dxf-files.properties
+          
+          # Commit only if there are changes
+          if ! git diff --staged --quiet; then
+            git commit -m "Auto-update generated files"
+            git pull --rebase
+            git push
+          else
+            echo "No changes to commit."
+          fi
