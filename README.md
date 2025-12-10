@@ -481,14 +481,22 @@
     </td>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
+        <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/SingleArcs/SingleArcs.png" alt="SingleArcs" style="max-height:400px; max-width:100%; object-fit:contain">
+      </div>
+      <br>
+      <b>SingleArcs</b><br>
+      <small>(SingleArcs)</small>
+    </td>
+</tr>
+<tr>
+    <td align="center" valign="bottom" style="width:50%">
+      <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/SingleLinearSelfIntersection/SingleLinearSelfIntersection.png" alt="SingleLinearSelfIntersection" style="max-height:400px; max-width:100%; object-fit:contain">
       </div>
       <br>
       <b>SingleLinearSelfIntersection</b><br>
       <small>(SingleLinearSelfIntersection)</small>
     </td>
-</tr>
-<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/SingleSpline/SingleSpline.png" alt="SingleSpline" style="max-height:400px; max-width:100%; object-fit:contain">
@@ -497,6 +505,8 @@
       <b>SingleSpline</b><br>
       <small>(SingleSpline)</small>
     </td>
+</tr>
+<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/SingleSpline2/SingleSpline2.png" alt="SingleSpline2" style="max-height:400px; max-width:100%; object-fit:contain">
@@ -505,8 +515,6 @@
       <b>SingleSpline2</b><br>
       <small>(SingleSpline2)</small>
     </td>
-</tr>
-<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/SingleSplineCorner/SingleSplineCorner.png" alt="SingleSplineCorner" style="max-height:400px; max-width:100%; object-fit:contain">
@@ -515,6 +523,8 @@
       <b>SingleSplineCorner</b><br>
       <small>(SingleSplineCorner)</small>
     </td>
+</tr>
+<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/SingleSquare10mm/SingleSquare10mm.png" alt="SingleSquare10mm" style="max-height:400px; max-width:100%; object-fit:contain">
@@ -523,8 +533,6 @@
       <b>SingleSquare10mm</b><br>
       <small>(SingleSquare10mm)</small>
     </td>
-</tr>
-<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/SortHoles16/SortHoles16.png" alt="SortHoles16" style="max-height:400px; max-width:100%; object-fit:contain">
@@ -533,6 +541,8 @@
       <b>SortHoles16</b><br>
       <small>(SortHoles16)</small>
     </td>
+</tr>
+<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/SortHolesCWCCWNegativeQuarter/SortHolesCWCCWNegativeQuarter.png" alt="SortHolesCWCCWNegativeQuarter" style="max-height:400px; max-width:100%; object-fit:contain">
@@ -541,8 +551,6 @@
       <b>SortHolesCWCCWNegativeQuarter</b><br>
       <small>(SortHolesCWCCWNegativeQuarter)</small>
     </td>
-</tr>
-<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/SquareAndCircle/square-and-circle.png" alt="square-and-circle" style="max-height:400px; max-width:100%; object-fit:contain">
@@ -551,6 +559,8 @@
       <b>square-and-circle</b><br>
       <small>(SquareAndCircle)</small>
     </td>
+</tr>
+<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/SquareWithCircleHoleSimpleR12/SquareWithCircleHoleSimpleR12.png" alt="SquareWithCircleHoleSimpleR12" style="max-height:400px; max-width:100%; object-fit:contain">
@@ -559,8 +569,6 @@
       <b>SquareWithCircleHoleSimpleR12</b><br>
       <small>(SquareWithCircleHoleSimpleR12)</small>
     </td>
-</tr>
-<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/SquareWithHexagonHole/SquareWithHexagonHole.png" alt="SquareWithHexagonHole" style="max-height:400px; max-width:100%; object-fit:contain">
@@ -569,6 +577,8 @@
       <b>SquareWithHexagonHole</b><br>
       <small>(SquareWithHexagonHole)</small>
     </td>
+</tr>
+<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/SquareWithOpenAndClosedCurves/square-with-open-and-closed-curves.png" alt="square-with-open-and-closed-curves" style="max-height:400px; max-width:100%; object-fit:contain">
@@ -577,8 +587,6 @@
       <b>square-with-open-and-closed-curves</b><br>
       <small>(SquareWithOpenAndClosedCurves)</small>
     </td>
-</tr>
-<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/SquareWithOpenCurve/square-with-open-curve.png" alt="square-with-open-curve" style="max-height:400px; max-width:100%; object-fit:contain">
@@ -587,6 +595,8 @@
       <b>square-with-open-curve</b><br>
       <small>(SquareWithOpenCurve)</small>
     </td>
+</tr>
+<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/SquareWithSquareHole/SquareWithSquareHole.png" alt="SquareWithSquareHole" style="max-height:400px; max-width:100%; object-fit:contain">
@@ -594,6 +604,14 @@
       <br>
       <b>SquareWithSquareHole</b><br>
       <small>(SquareWithSquareHole)</small>
+    </td>
+    <td align="center" valign="bottom" style="width:50%">
+      <div style="height:400px; display:flex; align-items:center; justify-content:center">
+        <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/SquareWithSquareHole_WithOpenPolyline/SquareWithSquareHole_WithOpenPolyline.png" alt="SquareWithSquareHole_WithOpenPolyline" style="max-height:400px; max-width:100%; object-fit:contain">
+      </div>
+      <br>
+      <b>SquareWithSquareHole_WithOpenPolyline</b><br>
+      <small>(SquareWithSquareHole_WithOpenPolyline)</small>
     </td>
 </tr>
 <tr>
@@ -796,6 +814,6 @@
 </tr>
 </table>
 
-> *Total folders processed: 88*
-> *Images found: 88*
+> *Total folders processed: 90*
+> *Images found: 90*
 > *Folders without images: 0*
