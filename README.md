@@ -23,6 +23,24 @@
 <tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
+        <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/4x8_10mm_Raw_Offset_Segments/4x8Nest_10mm_Raw_Offset_Segments.png" alt="4x8Nest_10mm_Raw_Offset_Segments" style="max-height:400px; max-width:100%; object-fit:contain">
+      </div>
+      <br>
+      <b>4x8Nest_10mm_Raw_Offset_Segments</b><br>
+      <small>(4x8_10mm_Raw_Offset_Segments)</small>
+    </td>
+    <td align="center" valign="bottom" style="width:50%">
+      <div style="height:400px; display:flex; align-items:center; justify-content:center">
+        <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/4x8_8mm_Raw_Offset_Segments/4x8Nest_8mm_Raw_Offset_Segments.png" alt="4x8Nest_8mm_Raw_Offset_Segments" style="max-height:400px; max-width:100%; object-fit:contain">
+      </div>
+      <br>
+      <b>4x8Nest_8mm_Raw_Offset_Segments</b><br>
+      <small>(4x8_8mm_Raw_Offset_Segments)</small>
+    </td>
+</tr>
+<tr>
+    <td align="center" valign="bottom" style="width:50%">
+      <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/AllanahFontDXF/Allanah%20Font%20DXF.png" alt="Allanah Font DXF" style="max-height:400px; max-width:100%; object-fit:contain">
       </div>
       <br>
@@ -280,6 +298,24 @@
       <br>
       <b>NestTest</b><br>
       <small>(NestTest)</small>
+    </td>
+    <td align="center" valign="bottom" style="width:50%">
+      <div style="height:400px; display:flex; align-items:center; justify-content:center">
+        <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/NestTest_1mm_Raw_Offset_Segments/NestTest_1mm_Raw_Offset_Segments.png" alt="NestTest_1mm_Raw_Offset_Segments" style="max-height:400px; max-width:100%; object-fit:contain">
+      </div>
+      <br>
+      <b>NestTest_1mm_Raw_Offset_Segments</b><br>
+      <small>(NestTest_1mm_Raw_Offset_Segments)</small>
+    </td>
+</tr>
+<tr>
+    <td align="center" valign="bottom" style="width:50%">
+      <div style="height:400px; display:flex; align-items:center; justify-content:center">
+        <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/NestTest_7mm_Raw_Offset_Segments/NestTest_7mm_Raw_Offset_Segments.png" alt="NestTest_7mm_Raw_Offset_Segments" style="max-height:400px; max-width:100%; object-fit:contain">
+      </div>
+      <br>
+      <b>NestTest_7mm_Raw_Offset_Segments</b><br>
+      <small>(NestTest_7mm_Raw_Offset_Segments)</small>
     </td>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
@@ -671,6 +707,24 @@
 <tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
+        <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/TigletFile_1mm_Raw_Offset_Segments/TigletFile_1mm_Raw_Offset_Segments.png" alt="TigletFile_1mm_Raw_Offset_Segments" style="max-height:400px; max-width:100%; object-fit:contain">
+      </div>
+      <br>
+      <b>TigletFile_1mm_Raw_Offset_Segments</b><br>
+      <small>(TigletFile_1mm_Raw_Offset_Segments)</small>
+    </td>
+    <td align="center" valign="bottom" style="width:50%">
+      <div style="height:400px; display:flex; align-items:center; justify-content:center">
+        <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/TigletFile_2mm_Raw_Offset_Segments/TigletFile_2mm_Raw_Offset_Segments.png" alt="TigletFile_2mm_Raw_Offset_Segments" style="max-height:400px; max-width:100%; object-fit:contain">
+      </div>
+      <br>
+      <b>TigletFile_2mm_Raw_Offset_Segments</b><br>
+      <small>(TigletFile_2mm_Raw_Offset_Segments)</small>
+    </td>
+</tr>
+<tr>
+    <td align="center" valign="bottom" style="width:50%">
+      <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/TwoNestedClusterGroups/TwoNestedClusterGroups.png" alt="TwoNestedClusterGroups" style="max-height:400px; max-width:100%; object-fit:contain">
       </div>
       <br>
@@ -814,6 +868,6 @@
 </tr>
 </table>
 
-> *Total folders processed: 90*
-> *Images found: 90*
+> *Total folders processed: 96*
+> *Images found: 96*
 > *Folders without images: 0*
