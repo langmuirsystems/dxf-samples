@@ -23,19 +23,19 @@
 <tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
-        <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/4x8_10mm_Raw_Offset_Segments/4x8Nest_10mm_Raw_Offset_Segments.png" alt="4x8Nest_10mm_Raw_Offset_Segments" style="max-height:400px; max-width:100%; object-fit:contain">
+        <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/4x8Nest_10mm_Raw_Offset_Segments/4x8Nest_10mm_Raw_Offset_Segments.png" alt="4x8Nest_10mm_Raw_Offset_Segments" style="max-height:400px; max-width:100%; object-fit:contain">
       </div>
       <br>
       <b>4x8Nest_10mm_Raw_Offset_Segments</b><br>
-      <small>(4x8_10mm_Raw_Offset_Segments)</small>
+      <small>(4x8Nest_10mm_Raw_Offset_Segments)</small>
     </td>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
-        <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/4x8_8mm_Raw_Offset_Segments/4x8Nest_8mm_Raw_Offset_Segments.png" alt="4x8Nest_8mm_Raw_Offset_Segments" style="max-height:400px; max-width:100%; object-fit:contain">
+        <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/4x8Nest_8mm_Raw_Offset_Segments/4x8Nest_8mm_Raw_Offset_Segments.png" alt="4x8Nest_8mm_Raw_Offset_Segments" style="max-height:400px; max-width:100%; object-fit:contain">
       </div>
       <br>
       <b>4x8Nest_8mm_Raw_Offset_Segments</b><br>
-      <small>(4x8_8mm_Raw_Offset_Segments)</small>
+      <small>(4x8Nest_8mm_Raw_Offset_Segments)</small>
     </td>
 </tr>
 <tr>
