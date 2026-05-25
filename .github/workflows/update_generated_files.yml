@@ -6,8 +6,6 @@ on:
     branches: [ master ]
     paths:
       - 'samples/**/*.dxf'
-      - 'samples/**/*.png'
-      - 'scripts/*'
 
 jobs:
   update-files:
