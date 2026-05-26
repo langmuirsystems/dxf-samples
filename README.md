@@ -868,6 +868,6 @@
 </tr>
 </table>
 
-> *Total folders processed: 96*
+> *Total folders processed: 97*
 > *Images found: 96*
-> *Folders without images: 0*
+> *Folders without images: 1*
