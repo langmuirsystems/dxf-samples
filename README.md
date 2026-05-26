@@ -59,19 +59,37 @@
 <tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
-        <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/CRCComplexDirection/CRCComplexDirection.png" alt="CRCComplexDirection" style="max-height:400px; max-width:100%; object-fit:contain">
-      </div>
-      <br>
-      <b>CRCComplexDirection</b><br>
-      <small>(CRCComplexDirection)</small>
-    </td>
-    <td align="center" valign="bottom" style="width:50%">
-      <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/Circle/Circle.png" alt="Circle" style="max-height:400px; max-width:100%; object-fit:contain">
       </div>
       <br>
       <b>Circle</b><br>
       <small>(Circle)</small>
+    </td>
+    <td align="center" valign="bottom" style="width:50%">
+      <div style="height:400px; display:flex; align-items:center; justify-content:center">
+        <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/circle-in-square/circle-in-square.png" alt="circle-in-square" style="max-height:400px; max-width:100%; object-fit:contain">
+      </div>
+      <br>
+      <b>circle-in-square</b><br>
+      <small>(circle-in-square)</small>
+    </td>
+</tr>
+<tr>
+    <td align="center" valign="bottom" style="width:50%">
+      <div style="height:400px; display:flex; align-items:center; justify-content:center">
+        <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/closed_random_simple_500_pts/closed_random_polyline_500_pts.png" alt="closed_random_polyline_500_pts" style="max-height:400px; max-width:100%; object-fit:contain">
+      </div>
+      <br>
+      <b>closed_random_polyline_500_pts</b><br>
+      <small>(closed_random_simple_500_pts)</small>
+    </td>
+    <td align="center" valign="bottom" style="width:50%">
+      <div style="height:400px; display:flex; align-items:center; justify-content:center">
+        <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/closed_random_simple_5000_pts/closed_random_polyline_5000_pts.png" alt="closed_random_polyline_5000_pts" style="max-height:400px; max-width:100%; object-fit:contain">
+      </div>
+      <br>
+      <b>closed_random_polyline_5000_pts</b><br>
+      <small>(closed_random_simple_5000_pts)</small>
     </td>
 </tr>
 <tr>
@@ -95,12 +113,22 @@
 <tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
+        <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/CRCComplexDirection/CRCComplexDirection.png" alt="CRCComplexDirection" style="max-height:400px; max-width:100%; object-fit:contain">
+      </div>
+      <br>
+      <b>CRCComplexDirection</b><br>
+      <small>(CRCComplexDirection)</small>
+    </td>
+    <td align="center" valign="bottom" style="width:50%">
+      <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/CustomClusters/CustomClusters.png" alt="CustomClusters" style="max-height:400px; max-width:100%; object-fit:contain">
       </div>
       <br>
       <b>CustomClusters</b><br>
       <small>(CustomClusters)</small>
     </td>
+</tr>
+<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/DecreasingSizeSpikeBand/DecreasingSizeSpikeBand.png" alt="DecreasingSizeSpikeBand" style="max-height:400px; max-width:100%; object-fit:contain">
@@ -109,8 +137,6 @@
       <b>DecreasingSizeSpikeBand</b><br>
       <small>(DecreasingSizeSpikeBand)</small>
     </td>
-</tr>
-<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/DeeplyNestedClusterGroups/DeeplyNestedClusterGroups.png" alt="DeeplyNestedClusterGroups" style="max-height:400px; max-width:100%; object-fit:contain">
@@ -119,6 +145,8 @@
       <b>DeeplyNestedClusterGroups</b><br>
       <small>(DeeplyNestedClusterGroups)</small>
     </td>
+</tr>
+<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/DeeplyNestedClusterGroups_Holes/DeeplyNestedClusterGroups_Holes.png" alt="DeeplyNestedClusterGroups_Holes" style="max-height:400px; max-width:100%; object-fit:contain">
@@ -127,8 +155,6 @@
       <b>DeeplyNestedClusterGroups_Holes</b><br>
       <small>(DeeplyNestedClusterGroups_Holes)</small>
     </td>
-</tr>
-<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/DeeplyNestedClusterGroups_Holes_And_Open/DeeplyNestedClusterGroups_Holes_And_Open.png" alt="DeeplyNestedClusterGroups_Holes_And_Open" style="max-height:400px; max-width:100%; object-fit:contain">
@@ -137,6 +163,8 @@
       <b>DeeplyNestedClusterGroups_Holes_And_Open</b><br>
       <small>(DeeplyNestedClusterGroups_Holes_And_Open)</small>
     </td>
+</tr>
+<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/Dragon/dragon.png" alt="dragon" style="max-height:400px; max-width:100%; object-fit:contain">
@@ -145,8 +173,24 @@
       <b>dragon</b><br>
       <small>(Dragon)</small>
     </td>
+    <td align="center" valign="bottom" style="width:50%">
+      <div style="height:400px; display:flex; align-items:center; justify-content:center">
+        <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/dragon-cornered/dragon-cornered.png" alt="dragon-cornered" style="max-height:400px; max-width:100%; object-fit:contain">
+      </div>
+      <br>
+      <b>dragon-cornered</b><br>
+      <small>(dragon-cornered)</small>
+    </td>
 </tr>
 <tr>
+    <td align="center" valign="bottom" style="width:50%">
+      <div style="height:400px; display:flex; align-items:center; justify-content:center">
+        <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/dragon-cornered-parts-IN/dragon-cornered-parts-IN.png" alt="dragon-cornered-parts-IN" style="max-height:400px; max-width:100%; object-fit:contain">
+      </div>
+      <br>
+      <b>dragon-cornered-parts-IN</b><br>
+      <small>(dragon-cornered-parts-IN)</small>
+    </td>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/F100/F100.png" alt="F100" style="max-height:400px; max-width:100%; object-fit:contain">
@@ -155,6 +199,8 @@
       <b>F100</b><br>
       <small>(F100)</small>
     </td>
+</tr>
+<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/FINGERPRINT/FINGERPRINT.png" alt="FINGERPRINT" style="max-height:400px; max-width:100%; object-fit:contain">
@@ -163,8 +209,6 @@
       <b>FINGERPRINT</b><br>
       <small>(FINGERPRINT)</small>
     </td>
-</tr>
-<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/FogaskerekClock/Fogaskerek_Clock.png" alt="Fogaskerek_Clock" style="max-height:400px; max-width:100%; object-fit:contain">
@@ -173,6 +217,8 @@
       <b>Fogaskerek_Clock</b><br>
       <small>(FogaskerekClock)</small>
     </td>
+</tr>
+<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/FourSeparateClusters/FourSeparateClusters.png" alt="FourSeparateClusters" style="max-height:400px; max-width:100%; object-fit:contain">
@@ -181,8 +227,6 @@
       <b>FourSeparateClusters</b><br>
       <small>(FourSeparateClusters)</small>
     </td>
-</tr>
-<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/FourShapesSeparateCurves/FourShapesSeparateCurves.png" alt="FourShapesSeparateCurves" style="max-height:400px; max-width:100%; object-fit:contain">
@@ -191,6 +235,8 @@
       <b>FourShapesSeparateCurves</b><br>
       <small>(FourShapesSeparateCurves)</small>
     </td>
+</tr>
+<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/FullEllipse/full_ellipse.png" alt="full_ellipse" style="max-height:400px; max-width:100%; object-fit:contain">
@@ -199,8 +245,6 @@
       <b>full_ellipse</b><br>
       <small>(FullEllipse)</small>
     </td>
-</tr>
-<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/Gather3/Gather3.png" alt="Gather3" style="max-height:400px; max-width:100%; object-fit:contain">
@@ -209,6 +253,8 @@
       <b>Gather3</b><br>
       <small>(Gather3)</small>
     </td>
+</tr>
+<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/Gear/Gear.png" alt="Gear" style="max-height:400px; max-width:100%; object-fit:contain">
@@ -217,8 +263,6 @@
       <b>Gear</b><br>
       <small>(Gear)</small>
     </td>
-</tr>
-<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/GradualAngleChange/gradual-angle-change.png" alt="gradual-angle-change" style="max-height:400px; max-width:100%; object-fit:contain">
@@ -227,6 +271,8 @@
       <b>gradual-angle-change</b><br>
       <small>(GradualAngleChange)</small>
     </td>
+</tr>
+<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/HorseFarmNoFence/HorseFarmNoFence.png" alt="HorseFarmNoFence" style="max-height:400px; max-width:100%; object-fit:contain">
@@ -235,8 +281,6 @@
       <b>HorseFarmNoFence</b><br>
       <small>(HorseFarmNoFence)</small>
     </td>
-</tr>
-<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/IncreasingSizeFitTest/IncreasingSizeFitTest.png" alt="IncreasingSizeFitTest" style="max-height:400px; max-width:100%; object-fit:contain">
@@ -245,6 +289,8 @@
       <b>IncreasingSizeFitTest</b><br>
       <small>(IncreasingSizeFitTest)</small>
     </td>
+</tr>
+<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/InterestingCusps/interesting-cusps.png" alt="interesting-cusps" style="max-height:400px; max-width:100%; object-fit:contain">
@@ -253,8 +299,6 @@
       <b>interesting-cusps</b><br>
       <small>(InterestingCusps)</small>
     </td>
-</tr>
-<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/InwardArcBox/InwardArcBox.png" alt="InwardArcBox" style="max-height:400px; max-width:100%; object-fit:contain">
@@ -263,6 +307,8 @@
       <b>InwardArcBox</b><br>
       <small>(InwardArcBox)</small>
     </td>
+</tr>
+<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/JingleBellBlank/jinglebell%20blank.png" alt="jinglebell blank" style="max-height:400px; max-width:100%; object-fit:contain">
@@ -270,6 +316,14 @@
       <br>
       <b>jinglebell blank</b><br>
       <small>(JingleBellBlank)</small>
+    </td>
+    <td align="center" valign="bottom" style="width:50%">
+      <div style="height:400px; display:flex; align-items:center; justify-content:center">
+        <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/langmuirsystems/langmuirsystems.png" alt="langmuirsystems" style="max-height:400px; max-width:100%; object-fit:contain">
+      </div>
+      <br>
+      <b>langmuirsystems</b><br>
+      <small>(langmuirsystems)</small>
     </td>
 </tr>
 <tr>
@@ -293,29 +347,11 @@
 <tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
-        <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/NestTest/NestTest.png" alt="NestTest" style="max-height:400px; max-width:100%; object-fit:contain">
+        <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/missing-segment/missing-segment.png" alt="missing-segment" style="max-height:400px; max-width:100%; object-fit:contain">
       </div>
       <br>
-      <b>NestTest</b><br>
-      <small>(NestTest)</small>
-    </td>
-    <td align="center" valign="bottom" style="width:50%">
-      <div style="height:400px; display:flex; align-items:center; justify-content:center">
-        <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/NestTest_1mm_Raw_Offset_Segments/NestTest_1mm_Raw_Offset_Segments.png" alt="NestTest_1mm_Raw_Offset_Segments" style="max-height:400px; max-width:100%; object-fit:contain">
-      </div>
-      <br>
-      <b>NestTest_1mm_Raw_Offset_Segments</b><br>
-      <small>(NestTest_1mm_Raw_Offset_Segments)</small>
-    </td>
-</tr>
-<tr>
-    <td align="center" valign="bottom" style="width:50%">
-      <div style="height:400px; display:flex; align-items:center; justify-content:center">
-        <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/NestTest_7mm_Raw_Offset_Segments/NestTest_7mm_Raw_Offset_Segments.png" alt="NestTest_7mm_Raw_Offset_Segments" style="max-height:400px; max-width:100%; object-fit:contain">
-      </div>
-      <br>
-      <b>NestTest_7mm_Raw_Offset_Segments</b><br>
-      <small>(NestTest_7mm_Raw_Offset_Segments)</small>
+      <b>missing-segment</b><br>
+      <small>(missing-segment)</small>
     </td>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
@@ -337,6 +373,42 @@
     </td>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
+        <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/NestTest/NestTest.png" alt="NestTest" style="max-height:400px; max-width:100%; object-fit:contain">
+      </div>
+      <br>
+      <b>NestTest</b><br>
+      <small>(NestTest)</small>
+    </td>
+</tr>
+<tr>
+    <td align="center" valign="bottom" style="width:50%">
+      <div style="height:400px; display:flex; align-items:center; justify-content:center">
+        <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/NestTest_1mm_Raw_Offset_Segments/NestTest_1mm_Raw_Offset_Segments.png" alt="NestTest_1mm_Raw_Offset_Segments" style="max-height:400px; max-width:100%; object-fit:contain">
+      </div>
+      <br>
+      <b>NestTest_1mm_Raw_Offset_Segments</b><br>
+      <small>(NestTest_1mm_Raw_Offset_Segments)</small>
+    </td>
+    <td align="center" valign="bottom" style="width:50%">
+      <div style="height:400px; display:flex; align-items:center; justify-content:center">
+        <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/NestTest_7mm_Raw_Offset_Segments/NestTest_7mm_Raw_Offset_Segments.png" alt="NestTest_7mm_Raw_Offset_Segments" style="max-height:400px; max-width:100%; object-fit:contain">
+      </div>
+      <br>
+      <b>NestTest_7mm_Raw_Offset_Segments</b><br>
+      <small>(NestTest_7mm_Raw_Offset_Segments)</small>
+    </td>
+</tr>
+<tr>
+    <td align="center" valign="bottom" style="width:50%">
+      <div style="height:400px; display:flex; align-items:center; justify-content:center">
+        <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/OffsetestOneMoonDollAndAngled/OffsetTest_one_moon_doll_and_angled.png" alt="OffsetTest_one_moon_doll_and_angled" style="max-height:400px; max-width:100%; object-fit:contain">
+      </div>
+      <br>
+      <b>OffsetTest_one_moon_doll_and_angled</b><br>
+      <small>(OffsetestOneMoonDollAndAngled)</small>
+    </td>
+    <td align="center" valign="bottom" style="width:50%">
+      <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/OffsetSelfIntersect-small/OffsetSelfIntersect-small.png" alt="OffsetSelfIntersect-small" style="max-height:400px; max-width:100%; object-fit:contain">
       </div>
       <br>
@@ -355,22 +427,14 @@
     </td>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
-        <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/OffsetestOneMoonDollAndAngled/OffsetTest_one_moon_doll_and_angled.png" alt="OffsetTest_one_moon_doll_and_angled" style="max-height:400px; max-width:100%; object-fit:contain">
-      </div>
-      <br>
-      <b>OffsetTest_one_moon_doll_and_angled</b><br>
-      <small>(OffsetestOneMoonDollAndAngled)</small>
-    </td>
-</tr>
-<tr>
-    <td align="center" valign="bottom" style="width:50%">
-      <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/Pinapple/Pinapple.png" alt="Pinapple" style="max-height:400px; max-width:100%; object-fit:contain">
       </div>
       <br>
       <b>Pinapple</b><br>
       <small>(Pinapple)</small>
     </td>
+</tr>
+<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/Pineapple-outer-splines/Pineapple-outer-splines.png" alt="Pineapple-outer-splines" style="max-height:400px; max-width:100%; object-fit:contain">
@@ -379,8 +443,6 @@
       <b>Pineapple-outer-splines</b><br>
       <small>(Pineapple-outer-splines)</small>
     </td>
-</tr>
-<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/RoundedRectangleInside/RoundedRectangleInside.png" alt="RoundedRectangleInside" style="max-height:400px; max-width:100%; object-fit:contain">
@@ -389,6 +451,8 @@
       <b>RoundedRectangleInside</b><br>
       <small>(RoundedRectangleInside)</small>
     </td>
+</tr>
+<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/SelfTouch/SelfTouch.png" alt="SelfTouch" style="max-height:400px; max-width:100%; object-fit:contain">
@@ -396,6 +460,14 @@
       <br>
       <b>SelfTouch</b><br>
       <small>(SelfTouch)</small>
+    </td>
+    <td align="center" valign="bottom" style="width:50%">
+      <div style="height:400px; display:flex; align-items:center; justify-content:center">
+        <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/sharp-semi-circles/sharp-semi-circles.png" alt="sharp-semi-circles" style="max-height:400px; max-width:100%; object-fit:contain">
+      </div>
+      <br>
+      <b>sharp-semi-circles</b><br>
+      <small>(sharp-semi-circles)</small>
     </td>
 </tr>
 <tr>
@@ -409,14 +481,22 @@
     </td>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
+        <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/simple-bends-rejoin/simple-bends-rejoin.png" alt="simple-bends-rejoin" style="max-height:400px; max-width:100%; object-fit:contain">
+      </div>
+      <br>
+      <b>simple-bends-rejoin</b><br>
+      <small>(simple-bends-rejoin)</small>
+    </td>
+</tr>
+<tr>
+    <td align="center" valign="bottom" style="width:50%">
+      <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/SimpleHole/SimpleHole.png" alt="SimpleHole" style="max-height:400px; max-width:100%; object-fit:contain">
       </div>
       <br>
       <b>SimpleHole</b><br>
       <small>(SimpleHole)</small>
     </td>
-</tr>
-<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/SimpleRect_70x10_OneDuplicateLineAtTop/SimpleRect_70x10_OneDuplicateLineAtTop.png" alt="SimpleRect_70x10_OneDuplicateLineAtTop" style="max-height:400px; max-width:100%; object-fit:contain">
@@ -425,6 +505,8 @@
       <b>SimpleRect_70x10_OneDuplicateLineAtTop</b><br>
       <small>(SimpleRect_70x10_OneDuplicateLineAtTop)</small>
     </td>
+</tr>
+<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/SimpleRect_70x10_WithHole/SimpleRect_70x10_WithHole.png" alt="SimpleRect_70x10_WithHole" style="max-height:400px; max-width:100%; object-fit:contain">
@@ -433,8 +515,6 @@
       <b>SimpleRect_70x10_WithHole</b><br>
       <small>(SimpleRect_70x10_WithHole)</small>
     </td>
-</tr>
-<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/SimpleSelfIntersection/SimpleSelfIntersection.png" alt="SimpleSelfIntersection" style="max-height:400px; max-width:100%; object-fit:contain">
@@ -443,6 +523,8 @@
       <b>SimpleSelfIntersection</b><br>
       <small>(SimpleSelfIntersection)</small>
     </td>
+</tr>
+<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/SimpleSort/SimpleSort.png" alt="SimpleSort" style="max-height:400px; max-width:100%; object-fit:contain">
@@ -450,16 +532,6 @@
       <br>
       <b>SimpleSort</b><br>
       <small>(SimpleSort)</small>
-    </td>
-</tr>
-<tr>
-    <td align="center" valign="bottom" style="width:50%">
-      <div style="height:400px; display:flex; align-items:center; justify-content:center">
-        <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/SimpleSquare_2500_OneDuplicateLineAtTop/SimpleSquare_2500_OneDuplicateLineAtTop.png" alt="SimpleSquare_2500_OneDuplicateLineAtTop" style="max-height:400px; max-width:100%; object-fit:contain">
-      </div>
-      <br>
-      <b>SimpleSquare_2500_OneDuplicateLineAtTop</b><br>
-      <small>(SimpleSquare_2500_OneDuplicateLineAtTop)</small>
     </td>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
@@ -473,12 +545,22 @@
 <tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
+        <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/SimpleSquare_2500_OneDuplicateLineAtTop/SimpleSquare_2500_OneDuplicateLineAtTop.png" alt="SimpleSquare_2500_OneDuplicateLineAtTop" style="max-height:400px; max-width:100%; object-fit:contain">
+      </div>
+      <br>
+      <b>SimpleSquare_2500_OneDuplicateLineAtTop</b><br>
+      <small>(SimpleSquare_2500_OneDuplicateLineAtTop)</small>
+    </td>
+    <td align="center" valign="bottom" style="width:50%">
+      <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/SimpleSquare_5_OneDuplicateLineAtTop/SimpleSquare_5_OneDuplicateLineAtTop.png" alt="SimpleSquare_5_OneDuplicateLineAtTop" style="max-height:400px; max-width:100%; object-fit:contain">
       </div>
       <br>
       <b>SimpleSquare_5_OneDuplicateLineAtTop</b><br>
       <small>(SimpleSquare_5_OneDuplicateLineAtTop)</small>
     </td>
+</tr>
+<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/SimpleSquare_OneDuplicateLineAtTop/SimpleSquare_OneDuplicateLineAtTop.png" alt="SimpleSquare_OneDuplicateLineAtTop" style="max-height:400px; max-width:100%; object-fit:contain">
@@ -487,8 +569,6 @@
       <b>SimpleSquare_OneDuplicateLineAtTop</b><br>
       <small>(SimpleSquare_OneDuplicateLineAtTop)</small>
     </td>
-</tr>
-<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/SimplestNarrowBand/SimplestNarrowBand.png" alt="SimplestNarrowBand" style="max-height:400px; max-width:100%; object-fit:contain">
@@ -497,6 +577,8 @@
       <b>SimplestNarrowBand</b><br>
       <small>(SimplestNarrowBand)</small>
     </td>
+</tr>
+<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/SimplestRoundNarrowBend/SimplestRoundNarrowBend.png" alt="SimplestRoundNarrowBend" style="max-height:400px; max-width:100%; object-fit:contain">
@@ -505,8 +587,6 @@
       <b>SimplestRoundNarrowBend</b><br>
       <small>(SimplestRoundNarrowBend)</small>
     </td>
-</tr>
-<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/SimplestSort/SimplestSort.png" alt="SimplestSort" style="max-height:400px; max-width:100%; object-fit:contain">
@@ -514,6 +594,16 @@
       <br>
       <b>SimplestSort</b><br>
       <small>(SimplestSort)</small>
+    </td>
+</tr>
+<tr>
+    <td align="center" valign="bottom" style="width:50%">
+      <div style="height:400px; display:flex; align-items:center; justify-content:center">
+        <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/single-split-vertex/single-split-vertex.png" alt="single-split-vertex" style="max-height:400px; max-width:100%; object-fit:contain">
+      </div>
+      <br>
+      <b>single-split-vertex</b><br>
+      <small>(single-split-vertex)</small>
     </td>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
@@ -599,12 +689,22 @@
 <tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
+        <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/SquaresInternalCusps/squares-internal-cusps.png" alt="squares-internal-cusps" style="max-height:400px; max-width:100%; object-fit:contain">
+      </div>
+      <br>
+      <b>squares-internal-cusps</b><br>
+      <small>(SquaresInternalCusps)</small>
+    </td>
+    <td align="center" valign="bottom" style="width:50%">
+      <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/SquareWithCircleHoleSimpleR12/SquareWithCircleHoleSimpleR12.png" alt="SquareWithCircleHoleSimpleR12" style="max-height:400px; max-width:100%; object-fit:contain">
       </div>
       <br>
       <b>SquareWithCircleHoleSimpleR12</b><br>
       <small>(SquareWithCircleHoleSimpleR12)</small>
     </td>
+</tr>
+<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/SquareWithHexagonHole/SquareWithHexagonHole.png" alt="SquareWithHexagonHole" style="max-height:400px; max-width:100%; object-fit:contain">
@@ -613,8 +713,6 @@
       <b>SquareWithHexagonHole</b><br>
       <small>(SquareWithHexagonHole)</small>
     </td>
-</tr>
-<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/SquareWithOpenAndClosedCurves/square-with-open-and-closed-curves.png" alt="square-with-open-and-closed-curves" style="max-height:400px; max-width:100%; object-fit:contain">
@@ -623,6 +721,8 @@
       <b>square-with-open-and-closed-curves</b><br>
       <small>(SquareWithOpenAndClosedCurves)</small>
     </td>
+</tr>
+<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/SquareWithOpenCurve/square-with-open-curve.png" alt="square-with-open-curve" style="max-height:400px; max-width:100%; object-fit:contain">
@@ -631,8 +731,6 @@
       <b>square-with-open-curve</b><br>
       <small>(SquareWithOpenCurve)</small>
     </td>
-</tr>
-<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/SquareWithSquareHole/SquareWithSquareHole.png" alt="SquareWithSquareHole" style="max-height:400px; max-width:100%; object-fit:contain">
@@ -641,6 +739,8 @@
       <b>SquareWithSquareHole</b><br>
       <small>(SquareWithSquareHole)</small>
     </td>
+</tr>
+<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/SquareWithSquareHole_WithOpenPolyline/SquareWithSquareHole_WithOpenPolyline.png" alt="SquareWithSquareHole_WithOpenPolyline" style="max-height:400px; max-width:100%; object-fit:contain">
@@ -648,16 +748,6 @@
       <br>
       <b>SquareWithSquareHole_WithOpenPolyline</b><br>
       <small>(SquareWithSquareHole_WithOpenPolyline)</small>
-    </td>
-</tr>
-<tr>
-    <td align="center" valign="bottom" style="width:50%">
-      <div style="height:400px; display:flex; align-items:center; justify-content:center">
-        <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/SquaresInternalCusps/squares-internal-cusps.png" alt="squares-internal-cusps" style="max-height:400px; max-width:100%; object-fit:contain">
-      </div>
-      <br>
-      <b>squares-internal-cusps</b><br>
-      <small>(SquaresInternalCusps)</small>
     </td>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
@@ -697,14 +787,22 @@
     </td>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
+        <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/ThreeInconsistentTriangles/ThreeInconsistentTriangles.png" alt="ThreeInconsistentTriangles" style="max-height:400px; max-width:100%; object-fit:contain">
+      </div>
+      <br>
+      <b>ThreeInconsistentTriangles</b><br>
+      <small>(ThreeInconsistentTriangles)</small>
+    </td>
+</tr>
+<tr>
+    <td align="center" valign="bottom" style="width:50%">
+      <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/TigletFile/Tiglet%20File.png" alt="Tiglet File" style="max-height:400px; max-width:100%; object-fit:contain">
       </div>
       <br>
       <b>Tiglet File</b><br>
       <small>(TigletFile)</small>
     </td>
-</tr>
-<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/TigletFile_1mm_Raw_Offset_Segments/TigletFile_1mm_Raw_Offset_Segments.png" alt="TigletFile_1mm_Raw_Offset_Segments" style="max-height:400px; max-width:100%; object-fit:contain">
@@ -713,6 +811,8 @@
       <b>TigletFile_1mm_Raw_Offset_Segments</b><br>
       <small>(TigletFile_1mm_Raw_Offset_Segments)</small>
     </td>
+</tr>
+<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/TigletFile_2mm_Raw_Offset_Segments/TigletFile_2mm_Raw_Offset_Segments.png" alt="TigletFile_2mm_Raw_Offset_Segments" style="max-height:400px; max-width:100%; object-fit:contain">
@@ -720,6 +820,14 @@
       <br>
       <b>TigletFile_2mm_Raw_Offset_Segments</b><br>
       <small>(TigletFile_2mm_Raw_Offset_Segments)</small>
+    </td>
+    <td align="center" valign="bottom" style="width:50%">
+      <div style="height:400px; display:flex; align-items:center; justify-content:center">
+        <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/TwoInconsistentTriangles/TwoInconsistentTriangles.png" alt="TwoInconsistentTriangles" style="max-height:400px; max-width:100%; object-fit:contain">
+      </div>
+      <br>
+      <b>TwoInconsistentTriangles</b><br>
+      <small>(TwoInconsistentTriangles)</small>
     </td>
 </tr>
 <tr>
@@ -776,98 +884,8 @@
       <small>(VesaMount)</small>
     </td>
 </tr>
-<tr>
-    <td align="center" valign="bottom" style="width:50%">
-      <div style="height:400px; display:flex; align-items:center; justify-content:center">
-        <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/circle-in-square/circle-in-square.png" alt="circle-in-square" style="max-height:400px; max-width:100%; object-fit:contain">
-      </div>
-      <br>
-      <b>circle-in-square</b><br>
-      <small>(circle-in-square)</small>
-    </td>
-    <td align="center" valign="bottom" style="width:50%">
-      <div style="height:400px; display:flex; align-items:center; justify-content:center">
-        <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/closed_random_simple_5000_pts/closed_random_polyline_5000_pts.png" alt="closed_random_polyline_5000_pts" style="max-height:400px; max-width:100%; object-fit:contain">
-      </div>
-      <br>
-      <b>closed_random_polyline_5000_pts</b><br>
-      <small>(closed_random_simple_5000_pts)</small>
-    </td>
-</tr>
-<tr>
-    <td align="center" valign="bottom" style="width:50%">
-      <div style="height:400px; display:flex; align-items:center; justify-content:center">
-        <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/closed_random_simple_500_pts/closed_random_polyline_500_pts.png" alt="closed_random_polyline_500_pts" style="max-height:400px; max-width:100%; object-fit:contain">
-      </div>
-      <br>
-      <b>closed_random_polyline_500_pts</b><br>
-      <small>(closed_random_simple_500_pts)</small>
-    </td>
-    <td align="center" valign="bottom" style="width:50%">
-      <div style="height:400px; display:flex; align-items:center; justify-content:center">
-        <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/dragon-cornered-parts-IN/dragon-cornered-parts-IN.png" alt="dragon-cornered-parts-IN" style="max-height:400px; max-width:100%; object-fit:contain">
-      </div>
-      <br>
-      <b>dragon-cornered-parts-IN</b><br>
-      <small>(dragon-cornered-parts-IN)</small>
-    </td>
-</tr>
-<tr>
-    <td align="center" valign="bottom" style="width:50%">
-      <div style="height:400px; display:flex; align-items:center; justify-content:center">
-        <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/dragon-cornered/dragon-cornered.png" alt="dragon-cornered" style="max-height:400px; max-width:100%; object-fit:contain">
-      </div>
-      <br>
-      <b>dragon-cornered</b><br>
-      <small>(dragon-cornered)</small>
-    </td>
-    <td align="center" valign="bottom" style="width:50%">
-      <div style="height:400px; display:flex; align-items:center; justify-content:center">
-        <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/langmuirsystems/langmuirsystems.png" alt="langmuirsystems" style="max-height:400px; max-width:100%; object-fit:contain">
-      </div>
-      <br>
-      <b>langmuirsystems</b><br>
-      <small>(langmuirsystems)</small>
-    </td>
-</tr>
-<tr>
-    <td align="center" valign="bottom" style="width:50%">
-      <div style="height:400px; display:flex; align-items:center; justify-content:center">
-        <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/missing-segment/missing-segment.png" alt="missing-segment" style="max-height:400px; max-width:100%; object-fit:contain">
-      </div>
-      <br>
-      <b>missing-segment</b><br>
-      <small>(missing-segment)</small>
-    </td>
-    <td align="center" valign="bottom" style="width:50%">
-      <div style="height:400px; display:flex; align-items:center; justify-content:center">
-        <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/sharp-semi-circles/sharp-semi-circles.png" alt="sharp-semi-circles" style="max-height:400px; max-width:100%; object-fit:contain">
-      </div>
-      <br>
-      <b>sharp-semi-circles</b><br>
-      <small>(sharp-semi-circles)</small>
-    </td>
-</tr>
-<tr>
-    <td align="center" valign="bottom" style="width:50%">
-      <div style="height:400px; display:flex; align-items:center; justify-content:center">
-        <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/simple-bends-rejoin/simple-bends-rejoin.png" alt="simple-bends-rejoin" style="max-height:400px; max-width:100%; object-fit:contain">
-      </div>
-      <br>
-      <b>simple-bends-rejoin</b><br>
-      <small>(simple-bends-rejoin)</small>
-    </td>
-    <td align="center" valign="bottom" style="width:50%">
-      <div style="height:400px; display:flex; align-items:center; justify-content:center">
-        <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/single-split-vertex/single-split-vertex.png" alt="single-split-vertex" style="max-height:400px; max-width:100%; object-fit:contain">
-      </div>
-      <br>
-      <b>single-split-vertex</b><br>
-      <small>(single-split-vertex)</small>
-    </td>
-</tr>
 </table>
 
-> *Total folders processed: 97*
-> *Images found: 96*
-> *Folders without images: 1*
+> *Total folders processed: 98*
+> *Images found: 98*
+> *Folders without images: 0*
