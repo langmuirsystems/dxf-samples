@@ -19,7 +19,7 @@ jobs:
         with:
           repository: ivanshuba/dxf-preview
           path: scripts/dxf-preview
-          ref: master
+          ref: main
 
       - name: Set up Python
         uses: actions/setup-python@v5
