@@ -28,14 +28,6 @@ param(
 )
 
 begin {
-    # GitHub API configuration
-    $ApiBaseUrl = "https://api.github.com/repos/$Owner/$Repo/contents"
-    $headers = @{
-        "Authorization" = "Bearer $GitHubToken"
-        "Accept"        = "application/vnd.github.v3+json"
-        "X-GitHub-Api-Version" = "2022-11-28"
-    }
-    
     # Initialize image data collection
     $imageData = [System.Collections.Generic.List[object]]::new()
     
@@ -48,62 +40,58 @@ begin {
 process {
     try {
         Write-Host "🚀 Starting gallery generation..."
-        
-        # --- 1. Get main folder contents ---
-        $uri = if ([string]::IsNullOrEmpty($Path)) {
-            $ApiBaseUrl
-        } else {
-            "$ApiBaseUrl/$Path"
-        }
-        
-        Write-Host "🔍 Scanning folder '$Path' for subfolders..."
-        $mainFolderContents = Invoke-RestMethod -Uri $uri -Headers $headers -Method Get
-        
-        # --- 2. Filter and process subfolders ---
-        $subfolders = $mainFolderContents | Where-Object { $_.type -eq 'dir' }
-        
+
+        # --- 1. Scan local filesystem for subfolders ---
+        Write-Host "🔍 Scanning local folder '$Path' for subfolders..."
+        $subfolders = Get-ChildItem -Path $Path -Directory | Sort-Object Name
+
         if (-not $subfolders) {
             Write-Warning "No subfolders found in '$Path'. Exiting."
             return
         }
-        
+
         Write-Host "✅ Found $($subfolders.Count) subfolders. Processing each..."
-        
-        # --- 3. Collect image information ---
+
+        # --- 2. Collect image information ---
         foreach ($folder in $subfolders) {
             $processedFolders++
-            Write-Host "  - Processing folder: $($folder.name)"
-            
+            Write-Host "  - Processing folder: $($folder.Name)"
+
             try {
-                $subfolderContents = Invoke-RestMethod -Uri $folder.url -Headers $headers -Method Get
-                $pngFile = $subfolderContents | Where-Object { $_.Name -like '*.png' } | Select-Object -First 1
-                
+                $pngFile = Get-ChildItem -Path $folder.FullName -Filter '*.png' | Select-Object -First 1
+
                 if ($pngFile) {
                     $foundImages++
+                    # Build the raw GitHub URL from the local relative path
+                    $relativePath = ($pngFile.FullName.Replace('\', '/') -replace [regex]::Escape((Get-Location).Path.Replace('\', '/') + '/'), '')
+                    # URL-encode spaces and special characters in the path
+                    $encodedPath = $relativePath -replace ' ', '%20'
+                    $rawUrl = "https://raw.githubusercontent.com/$Owner/$Repo/master/$encodedPath"
+
                     $imageData.Add([pscustomobject]@{
-                        Name = [System.IO.Path]::GetFileNameWithoutExtension($pngFile.name)
-                        Url  = $pngFile.download_url
-                        Folder = $folder.name
+                        Name   = [System.IO.Path]::GetFileNameWithoutExtension($pngFile.Name)
+                        Url    = $rawUrl
+                        Folder = $folder.Name
                     })
-                    Write-Host "    ✨ Found PNG file: $($pngFile.name)"
+                    Write-Host "    ✨ Found PNG file: $($pngFile.Name)"
                 } else {
                     $missingImages++
-                    Write-Warning "    ⚠️ No PNG file found in $($folder.name)"
+                    Write-Warning "    ⚠️ No PNG file found in $($folder.Name)"
                 }
             }
             catch {
-                Write-Warning "    ⚠️ Error processing $($folder.name): $($_.Exception.Message)"
+                Write-Warning "    ⚠️ Error processing $($folder.Name): $($_.Exception.Message)"
                 continue
             }
         }
         
-        # --- 4. Check for valid data ---
+        # --- 3. Check for valid data ---
         if ($imageData.Count -eq 0) {
             Write-Host "No images found for gallery creation. Exiting."
             return
         }
         
-        # --- 5. Generate Markdown file ---
+        # --- 4. Generate Markdown file ---
         Write-Host "🖼️ Generating Markdown file with $($imageData.Count) images..."
         
         $markdownLines = [System.Collections.Generic.List[string]]::new()
