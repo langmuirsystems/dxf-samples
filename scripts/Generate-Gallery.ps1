@@ -172,7 +172,7 @@ process {
                     $markdownLines.Add(@"
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
-        <img src="$($image.Url)" alt="$($image.Name)" style="max-height:400px; max-width:100%; object-fit:contain">
+        <img src="$($image.Url)" alt="$($image.Name)" title="$($image.Tooltip)" style="max-height:400px; max-width:100%; object-fit:contain">
       </div>
       <br>
       <b>$($image.Name)</b><br>
