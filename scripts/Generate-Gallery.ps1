@@ -8,6 +8,8 @@
     Connects to a GitHub repository using an access token.
     Scans specified folders for PNG files and generates a Markdown file
     containing an HTML table with images (2 per row).
+    Images include a tooltip (title attribute) with: example name from dxf-files.properties,
+    DXF file size in MB, and optional description from a description file in the folder.
 #>
 [CmdletBinding()]
 param(
@@ -22,6 +24,9 @@ param(
 
     [Parameter(Mandatory = $false)]
     [string]$Path = "samples",
+
+    [Parameter(Mandatory = $false)]
+    [string]$PropertiesFile = "samples/dxf-files.properties",
 
     [Parameter(Mandatory = $false)]
     [string]$OutputFile = "README.md"
@@ -40,6 +45,26 @@ begin {
 process {
     try {
         Write-Host "🚀 Starting gallery generation..."
+
+        # --- 0. Load dxf-files.properties into a lookup table ---
+        $propertiesLookup = @{}
+        if (Test-Path $PropertiesFile) {
+            Write-Host "📄 Loading properties from '$PropertiesFile'..."
+            Get-Content $PropertiesFile | ForEach-Object {
+                $line = $_.Trim()
+                if ($line -and $line -notmatch '^\s*#') {
+                    $eqIndex = $line.IndexOf('=')
+                    if ($eqIndex -gt 0) {
+                        $key   = $line.Substring(0, $eqIndex).Trim()
+                        $value = $line.Substring($eqIndex + 1).Trim()
+                        $propertiesLookup[$key] = $value
+                    }
+                }
+            }
+            Write-Host "✅ Loaded $($propertiesLookup.Count) entries from properties file."
+        } else {
+            Write-Warning "⚠️ Properties file '$PropertiesFile' not found. Tooltips will lack example names."
+        }
 
         # --- 1. Scan local filesystem for subfolders ---
         Write-Host "🔍 Scanning local folder '$Path' for subfolders..."
@@ -68,10 +93,49 @@ process {
                     $encodedPath = $relativePath -replace ' ', '%20'
                     $rawUrl = "https://raw.githubusercontent.com/$Owner/$Repo/master/$encodedPath"
 
+                    # --- Tooltip: example name from properties ---
+                    $exampleName = $null
+                    if ($propertiesLookup.ContainsKey($folder.Name)) {
+                        $exampleName = $folder.Name
+                    }
+
+                    # --- Tooltip: DXF file size ---
+                    $dxfFile = Get-ChildItem -Path $folder.FullName | Where-Object { $_.Extension -iin @('.dxf', '.DXF') } | Select-Object -First 1
+                    $dxfSizeMb = $null
+                    if ($dxfFile) {
+                        $dxfSizeMb = [math]::Round($dxfFile.Length / 1MB, 3)
+                    }
+
+                    # --- Tooltip: optional description file ---
+                    # Must contain the word 'description' in the filename (case-insensitive)
+                    # and have extension .md, .txt, or no extension
+                    $descriptionContent = $null
+                    $descFile = Get-ChildItem -Path $folder.FullName | Where-Object {
+                        $_.BaseName -imatch 'description' -and
+                        ($_.Extension -iin @('.md', '.txt') -or $_.Extension -eq '')
+                    } | Select-Object -First 1
+                    if ($descFile) {
+                        $descriptionContent = (Get-Content $descFile.FullName -Raw).Trim()
+                    }
+
+                    # --- Build tooltip string ---
+                    $tooltipLines = [System.Collections.Generic.List[string]]::new()
+                    if ($exampleName) {
+                        $tooltipLines.Add("Example: $exampleName")
+                    }
+                    if ($null -ne $dxfSizeMb) {
+                        $tooltipLines.Add("Size: $($dxfSizeMb) MB")
+                    }
+                    if ($descriptionContent) {
+                        $tooltipLines.Add("Description: $descriptionContent")
+                    }
+                    $tooltip = $tooltipLines -join "&#10;"
+
                     $imageData.Add([pscustomobject]@{
-                        Name   = [System.IO.Path]::GetFileNameWithoutExtension($pngFile.Name)
-                        Url    = $rawUrl
-                        Folder = $folder.Name
+                        Name    = [System.IO.Path]::GetFileNameWithoutExtension($pngFile.Name)
+                        Url     = $rawUrl
+                        Folder  = $folder.Name
+                        Tooltip = $tooltip
                     })
                     Write-Host "    ✨ Found PNG file: $($pngFile.Name)"
                 } else {
