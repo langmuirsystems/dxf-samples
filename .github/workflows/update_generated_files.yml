@@ -16,6 +16,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
+        with:
+          # Full history so we can diff the pushed commit against its parent to find which DXF files actually changed.
+          fetch-depth: 0
 
       - name: Checkout dxf-preview renderer
         uses: actions/checkout@v6
@@ -37,12 +40,62 @@ jobs:
           python -m pip install -r scripts/dxf-preview/requirements.txt
 
       - name: Render DXF previews
+        env:
+          EVENT: ${{ github.event_name }}
+          BEFORE: ${{ github.event.before }}
+          AFTER: ${{ github.sha }}
         run: |
-          python scripts/dxf-preview/render_dxf.py \
-            --folder samples \
-            --recursive 2 \
-            --square \
-            --margin 20
+          set -euo pipefail
+
+          render_one() {
+            python scripts/dxf-preview/render_dxf.py "$1" --square --margin 20
+          }
+
+          render_all() {
+            echo "Rendering previews for all DXF files under samples/."
+            python scripts/dxf-preview/render_dxf.py \
+              --folder samples \
+              --recursive 2 \
+              --square \
+              --margin 20
+          }
+
+          # Manual runs (workflow_dispatch) regenerate everything.
+          if [ "$EVENT" != "push" ]; then
+            echo "Event is '$EVENT' (not a push): rendering all previews."
+            render_all
+            exit 0
+          fi
+
+          # First push / new branch / force-push with no reachable base: render all.
+          if [ -z "${BEFORE:-}" ] \
+            || [ "$BEFORE" = "0000000000000000000000000000000000000000" ] \
+            || ! git rev-parse -q --verify "$BEFORE^{commit}" >/dev/null; then
+            echo "No usable base commit ('${BEFORE:-}'): rendering all previews."
+            render_all
+            exit 0
+          fi
+
+          echo "Diffing $BEFORE..$AFTER for changed DXF files."
+
+          # Only Added/Copied/Modified/Renamed (not Deleted) DXF files under samples/.
+          # -z + read -d '' keeps filenames with spaces intact.
+          mapfile -d '' -t CHANGED < <(
+            git diff -z --name-only --diff-filter=ACMR "$BEFORE" "$AFTER" -- samples \
+              | { grep -ziE '\.dxf$' || true; }
+          )
+
+          if [ "${#CHANGED[@]}" -eq 0 ]; then
+            echo "No DXF files changed in this push; skipping preview rendering."
+            exit 0
+          fi
+
+          echo "Rendering ${#CHANGED[@]} changed DXF file(s):"
+          printf '  %s\n' "${CHANGED[@]}"
+
+          for f in "${CHANGED[@]}"; do
+            render_one "$f"
+          done
 
       - name: Install PowerShell
         run: |
