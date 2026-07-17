@@ -33,7 +33,8 @@ Doesn't contain duplicates." style="max-height:400px; max-width:100%; object-fit
     </td>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
-        <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/4x8Nest_6mm_Raw_Offsets_For_Single_Hole_19_8872147/4x8Nest_6mm_Raw_Offsets_For_Single_Hole_19_8872147.png" alt="4x8Nest_6mm_Raw_Offsets_For_Single_Hole_19_8872147" title="Size: 0.327 MB&#10;Description: Concrete set of raw offset segments after split for 4x8Nest example and 6mm kerf width." style="max-height:400px; max-width:100%; object-fit:contain">
+        <img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/4x8Nest_6mm_Raw_Offsets_For_Single_Hole_19_8872147/4x8Nest_6mm_Raw_Offsets_For_Single_Hole_19_8872147.png" alt="4x8Nest_6mm_Raw_Offsets_For_Single_Hole_19_8872147" title="Example: 4x8Nest_6mm_Raw_Offsets_For_Single_Hole_19_8872147&#10;Size: 0.327 MB&#10;Description: Concrete set of raw offset segments after split for 4x8Nest example and 6mm kerf width.
+It was created to optimize the DCEL loop collector." style="max-height:400px; max-width:100%; object-fit:contain">
       </div>
       <br>
       <b>4x8Nest_6mm_Raw_Offsets_For_Single_Hole_19_8872147</b><br>
