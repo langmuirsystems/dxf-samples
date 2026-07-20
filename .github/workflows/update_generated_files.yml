@@ -9,6 +9,8 @@ on:
       - 'samples/**/*description*.md'
       - 'samples/**/*description*.txt'
       - 'samples/**/*description*'
+      - 'samples/**/IN'
+      - 'samples/**/MM'
 
 jobs:
   update-files:
