@@ -93,6 +93,10 @@ process {
                     $encodedPath = $relativePath -replace ' ', '%20'
                     $rawUrl = "https://raw.githubusercontent.com/$Owner/$Repo/master/$encodedPath"
 
+                    # Link target: the sample's folder in the repository tree
+                    $encodedFolder = [uri]::EscapeDataString($folder.Name)
+                    $folderUrl = "https://github.com/$Owner/$Repo/tree/master/$Path/$encodedFolder"
+
                     # --- Tooltip: example name from properties ---
                     $exampleName = $null
                     if ($propertiesLookup.ContainsKey($folder.Name)) {
@@ -132,10 +136,11 @@ process {
                     $tooltip = $tooltipLines -join "&#10;"
 
                     $imageData.Add([pscustomobject]@{
-                        Name    = [System.IO.Path]::GetFileNameWithoutExtension($pngFile.Name)
-                        Url     = $rawUrl
-                        Folder  = $folder.Name
-                        Tooltip = $tooltip
+                        Name      = [System.IO.Path]::GetFileNameWithoutExtension($pngFile.Name)
+                        Url       = $rawUrl
+                        Folder    = $folder.Name
+                        FolderUrl = $folderUrl
+                        Tooltip   = $tooltip
                     })
                     Write-Host "    ✨ Found PNG file: $($pngFile.Name)"
                 } else {
@@ -172,10 +177,10 @@ process {
                     $markdownLines.Add(@"
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
-        <img src="$($image.Url)" alt="$($image.Name)" title="$($image.Tooltip)" style="max-height:400px; max-width:100%; object-fit:contain">
+        <a href="$($image.FolderUrl)"><img src="$($image.Url)" alt="$($image.Name)" title="$($image.Tooltip)" style="max-height:400px; max-width:100%; object-fit:contain"></a>
       </div>
       <br>
-      <b>$($image.Name)</b><br>
+      <b><a href="$($image.FolderUrl)">$($image.Name)</a></b><br>
       <small>($($image.Folder))</small>
     </td>
 "@)

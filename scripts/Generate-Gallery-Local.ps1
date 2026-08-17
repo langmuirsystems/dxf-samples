@@ -104,6 +104,8 @@ process {
                         Name = [System.IO.Path]::GetFileNameWithoutExtension($pngFile.name)
                         Url  = $pngFile.download_url
                         Folder = $folder.name
+                        # Ссылка на папку примера в репозитории (отдается GitHub API)
+                        FolderUrl = $folder.html_url
                     })
                     Write-Host "    ✨ Найден PNG файл: $($pngFile.name)"
                 } else {
@@ -141,10 +143,10 @@ process {
 $markdownLines.Add(@"
     <td align="center" valign="bottom" style="width:25%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
-        <img src="$($image.Url)" alt="$($image.Name)" style="max-height:400px; max-width:100%; object-fit:contain">
+        <a href="$($image.FolderUrl)"><img src="$($image.Url)" alt="$($image.Name)" style="max-height:400px; max-width:100%; object-fit:contain"></a>
       </div>
       <br>
-      <b>$($image.Name)</b><br>
+      <b><a href="$($image.FolderUrl)">$($image.Name)</a></b><br>
       <small>($($image.Folder))</small>
     </td>
 "@)

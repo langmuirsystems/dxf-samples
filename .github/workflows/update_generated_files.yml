@@ -11,6 +11,7 @@ on:
       - 'samples/**/*description*'
       - 'samples/**/IN'
       - 'samples/**/MM'
+      - 'scripts/*.ps1'
 
 jobs:
   update-files:
