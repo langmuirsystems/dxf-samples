@@ -119,7 +119,18 @@ process {
                         ($_.Extension -iin @('.md', '.txt') -or $_.Extension -eq '')
                     } | Select-Object -First 1
                     if ($descFile) {
+                        # The description ends up inside title="...", so it must be
+                        # attribute-safe: escape markup characters first (& before the
+                        # rest, or the entities get double-escaped), then replace every
+                        # flavour of line break with a numeric entity. Raw newlines here
+                        # would otherwise split the <img> tag across lines.
                         $descriptionContent = (Get-Content $descFile.FullName -Raw).Trim()
+                        $descriptionContent = $descriptionContent `
+                            -replace '&', '&amp;' `
+                            -replace '<', '&lt;' `
+                            -replace '>', '&gt;' `
+                            -replace '"', '&quot;' `
+                            -replace '\r\n?|\n', '&#10;'
                     }
 
                     # --- Build tooltip string ---
