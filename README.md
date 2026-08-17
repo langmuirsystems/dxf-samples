@@ -13,9 +13,7 @@
     </td>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
-        <a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/4x8Nest"><img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/4x8Nest/4x8%20Nest.png" alt="4x8 Nest" title="Example: 4x8Nest&#10;Size: 1.462 MB&#10;Description: A set parts arranged in an external nesting application.
-Does have couple of parts that intersect each other.
-Doesn't contain duplicates." style="max-height:400px; max-width:100%; object-fit:contain"></a>
+        <a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/4x8Nest"><img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/4x8Nest/4x8%20Nest.png" alt="4x8 Nest" title="Example: 4x8Nest&#10;Size: 1.462 MB&#10;Description: A set parts arranged in an external nesting application.&#10;Does have couple of parts that intersect each other.&#10;Doesn't contain duplicates." style="max-height:400px; max-width:100%; object-fit:contain"></a>
       </div>
       <br>
       <b><a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/4x8Nest">4x8 Nest</a></b><br>
@@ -33,8 +31,7 @@ Doesn't contain duplicates." style="max-height:400px; max-width:100%; object-fit
     </td>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
-        <a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/4x8Nest_6mm_Raw_Offsets_For_Single_Hole_19_8872147"><img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/4x8Nest_6mm_Raw_Offsets_For_Single_Hole_19_8872147/4x8Nest_6mm_Raw_Offsets_For_Single_Hole_19_8872147.png" alt="4x8Nest_6mm_Raw_Offsets_For_Single_Hole_19_8872147" title="Example: 4x8Nest_6mm_Raw_Offsets_For_Single_Hole_19_8872147&#10;Size: 0.327 MB&#10;Description: Concrete set of raw offset segments after split for 4x8Nest example and 6mm kerf width.
-It was created to optimize the DCEL loop collector." style="max-height:400px; max-width:100%; object-fit:contain"></a>
+        <a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/4x8Nest_6mm_Raw_Offsets_For_Single_Hole_19_8872147"><img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/4x8Nest_6mm_Raw_Offsets_For_Single_Hole_19_8872147/4x8Nest_6mm_Raw_Offsets_For_Single_Hole_19_8872147.png" alt="4x8Nest_6mm_Raw_Offsets_For_Single_Hole_19_8872147" title="Example: 4x8Nest_6mm_Raw_Offsets_For_Single_Hole_19_8872147&#10;Size: 0.327 MB&#10;Description: Concrete set of raw offset segments after split for 4x8Nest example and 6mm kerf width.&#10;It was created to optimize the DCEL loop collector." style="max-height:400px; max-width:100%; object-fit:contain"></a>
       </div>
       <br>
       <b><a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/4x8Nest_6mm_Raw_Offsets_For_Single_Hole_19_8872147">4x8Nest_6mm_Raw_Offsets_For_Single_Hole_19_8872147</a></b><br>
