@@ -509,12 +509,22 @@
 <tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
+        <a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/SimpleNestedGroup"><img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/SimpleNestedGroup/SimpleNestedGroup.png" alt="SimpleNestedGroup" title="Size: 0.064 MB" style="max-height:400px; max-width:100%; object-fit:contain"></a>
+      </div>
+      <br>
+      <b><a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/SimpleNestedGroup">SimpleNestedGroup</a></b><br>
+      <small>(SimpleNestedGroup)</small>
+    </td>
+    <td align="center" valign="bottom" style="width:50%">
+      <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/SimpleRect_70x10_OneDuplicateLineAtTop"><img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/SimpleRect_70x10_OneDuplicateLineAtTop/SimpleRect_70x10_OneDuplicateLineAtTop.png" alt="SimpleRect_70x10_OneDuplicateLineAtTop" title="Example: SimpleRect_70x10_OneDuplicateLineAtTop&#10;Size: 0.141 MB" style="max-height:400px; max-width:100%; object-fit:contain"></a>
       </div>
       <br>
       <b><a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/SimpleRect_70x10_OneDuplicateLineAtTop">SimpleRect_70x10_OneDuplicateLineAtTop</a></b><br>
       <small>(SimpleRect_70x10_OneDuplicateLineAtTop)</small>
     </td>
+</tr>
+<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/SimpleRect_70x10_WithHole"><img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/SimpleRect_70x10_WithHole/SimpleRect_70x10_WithHole.png" alt="SimpleRect_70x10_WithHole" title="Example: SimpleRect_70x10_WithHole&#10;Size: 0.143 MB" style="max-height:400px; max-width:100%; object-fit:contain"></a>
@@ -523,8 +533,6 @@
       <b><a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/SimpleRect_70x10_WithHole">SimpleRect_70x10_WithHole</a></b><br>
       <small>(SimpleRect_70x10_WithHole)</small>
     </td>
-</tr>
-<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/SimpleSelfIntersection"><img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/SimpleSelfIntersection/SimpleSelfIntersection.png" alt="SimpleSelfIntersection" title="Example: SimpleSelfIntersection&#10;Size: 0.14 MB" style="max-height:400px; max-width:100%; object-fit:contain"></a>
@@ -533,6 +541,8 @@
       <b><a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/SimpleSelfIntersection">SimpleSelfIntersection</a></b><br>
       <small>(SimpleSelfIntersection)</small>
     </td>
+</tr>
+<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/SimpleSort"><img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/SimpleSort/SimpleSort.png" alt="SimpleSort" title="Example: SimpleSort&#10;Size: 0.142 MB" style="max-height:400px; max-width:100%; object-fit:contain"></a>
@@ -541,8 +551,6 @@
       <b><a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/SimpleSort">SimpleSort</a></b><br>
       <small>(SimpleSort)</small>
     </td>
-</tr>
-<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/SimpleSquare_25_OneDuplicateLineAtTop"><img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/SimpleSquare_25_OneDuplicateLineAtTop/SimpleSquare_25_OneDuplicateLineAtTop.png" alt="SimpleSquare_25_OneDuplicateLineAtTop" title="Example: SimpleSquare_25_OneDuplicateLineAtTop&#10;Size: 0.014 MB" style="max-height:400px; max-width:100%; object-fit:contain"></a>
@@ -551,6 +559,8 @@
       <b><a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/SimpleSquare_25_OneDuplicateLineAtTop">SimpleSquare_25_OneDuplicateLineAtTop</a></b><br>
       <small>(SimpleSquare_25_OneDuplicateLineAtTop)</small>
     </td>
+</tr>
+<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/SimpleSquare_2500_OneDuplicateLineAtTop"><img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/SimpleSquare_2500_OneDuplicateLineAtTop/SimpleSquare_2500_OneDuplicateLineAtTop.png" alt="SimpleSquare_2500_OneDuplicateLineAtTop" title="Example: SimpleSquare_2500_OneDuplicateLineAtTop&#10;Size: 0.948 MB" style="max-height:400px; max-width:100%; object-fit:contain"></a>
@@ -559,8 +569,6 @@
       <b><a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/SimpleSquare_2500_OneDuplicateLineAtTop">SimpleSquare_2500_OneDuplicateLineAtTop</a></b><br>
       <small>(SimpleSquare_2500_OneDuplicateLineAtTop)</small>
     </td>
-</tr>
-<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/SimpleSquare_5_OneDuplicateLineAtTop"><img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/SimpleSquare_5_OneDuplicateLineAtTop/SimpleSquare_5_OneDuplicateLineAtTop.png" alt="SimpleSquare_5_OneDuplicateLineAtTop" title="Example: SimpleSquare_5_OneDuplicateLineAtTop&#10;Size: 0.007 MB" style="max-height:400px; max-width:100%; object-fit:contain"></a>
@@ -569,6 +577,8 @@
       <b><a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/SimpleSquare_5_OneDuplicateLineAtTop">SimpleSquare_5_OneDuplicateLineAtTop</a></b><br>
       <small>(SimpleSquare_5_OneDuplicateLineAtTop)</small>
     </td>
+</tr>
+<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/SimpleSquare_OneDuplicateLineAtTop"><img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/SimpleSquare_OneDuplicateLineAtTop/SimpleSquare_OneDuplicateLineAtTop.png" alt="SimpleSquare_OneDuplicateLineAtTop" title="Example: SimpleSquare_OneDuplicateLineAtTop&#10;Size: 0.005 MB" style="max-height:400px; max-width:100%; object-fit:contain"></a>
@@ -577,8 +587,6 @@
       <b><a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/SimpleSquare_OneDuplicateLineAtTop">SimpleSquare_OneDuplicateLineAtTop</a></b><br>
       <small>(SimpleSquare_OneDuplicateLineAtTop)</small>
     </td>
-</tr>
-<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/SimplestNarrowBand"><img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/SimplestNarrowBand/SimplestNarrowBand.png" alt="SimplestNarrowBand" title="Example: SimplestNarrowBand&#10;Size: 0.14 MB" style="max-height:400px; max-width:100%; object-fit:contain"></a>
@@ -587,6 +595,8 @@
       <b><a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/SimplestNarrowBand">SimplestNarrowBand</a></b><br>
       <small>(SimplestNarrowBand)</small>
     </td>
+</tr>
+<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/SimplestRoundNarrowBend"><img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/SimplestRoundNarrowBend/SimplestRoundNarrowBend.png" alt="SimplestRoundNarrowBend" title="Example: SimplestRoundNarrowBend&#10;Size: 0.141 MB" style="max-height:400px; max-width:100%; object-fit:contain"></a>
@@ -595,8 +605,6 @@
       <b><a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/SimplestRoundNarrowBend">SimplestRoundNarrowBend</a></b><br>
       <small>(SimplestRoundNarrowBend)</small>
     </td>
-</tr>
-<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/SimplestSort"><img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/SimplestSort/SimplestSort.png" alt="SimplestSort" title="Example: SimplestSort&#10;Size: 0.141 MB" style="max-height:400px; max-width:100%; object-fit:contain"></a>
@@ -605,6 +613,8 @@
       <b><a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/SimplestSort">SimplestSort</a></b><br>
       <small>(SimplestSort)</small>
     </td>
+</tr>
+<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/single-split-vertex"><img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/single-split-vertex/single-split-vertex.png" alt="single-split-vertex" title="Example: single-split-vertex&#10;Size: 0.14 MB" style="max-height:400px; max-width:100%; object-fit:contain"></a>
@@ -613,8 +623,6 @@
       <b><a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/single-split-vertex">single-split-vertex</a></b><br>
       <small>(single-split-vertex)</small>
     </td>
-</tr>
-<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/SingleArcs"><img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/SingleArcs/SingleArcs.png" alt="SingleArcs" title="Example: SingleArcs&#10;Size: 0.14 MB" style="max-height:400px; max-width:100%; object-fit:contain"></a>
@@ -623,6 +631,8 @@
       <b><a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/SingleArcs">SingleArcs</a></b><br>
       <small>(SingleArcs)</small>
     </td>
+</tr>
+<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/SingleLinearSelfIntersection"><img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/SingleLinearSelfIntersection/SingleLinearSelfIntersection.png" alt="SingleLinearSelfIntersection" title="Example: SingleLinearSelfIntersection&#10;Size: 0.009 MB" style="max-height:400px; max-width:100%; object-fit:contain"></a>
@@ -631,8 +641,6 @@
       <b><a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/SingleLinearSelfIntersection">SingleLinearSelfIntersection</a></b><br>
       <small>(SingleLinearSelfIntersection)</small>
     </td>
-</tr>
-<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/SingleSpline"><img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/SingleSpline/SingleSpline.png" alt="SingleSpline" title="Example: SingleSpline&#10;Size: 0.03 MB" style="max-height:400px; max-width:100%; object-fit:contain"></a>
@@ -641,6 +649,8 @@
       <b><a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/SingleSpline">SingleSpline</a></b><br>
       <small>(SingleSpline)</small>
     </td>
+</tr>
+<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/SingleSpline2"><img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/SingleSpline2/SingleSpline2.png" alt="SingleSpline2" title="Example: SingleSpline2&#10;Size: 0.03 MB" style="max-height:400px; max-width:100%; object-fit:contain"></a>
@@ -649,8 +659,6 @@
       <b><a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/SingleSpline2">SingleSpline2</a></b><br>
       <small>(SingleSpline2)</small>
     </td>
-</tr>
-<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/SingleSplineCorner"><img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/SingleSplineCorner/SingleSplineCorner.png" alt="SingleSplineCorner" title="Example: SingleSplineCorner&#10;Size: 0.14 MB" style="max-height:400px; max-width:100%; object-fit:contain"></a>
@@ -659,6 +667,8 @@
       <b><a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/SingleSplineCorner">SingleSplineCorner</a></b><br>
       <small>(SingleSplineCorner)</small>
     </td>
+</tr>
+<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/SingleSquare10mm"><img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/SingleSquare10mm/SingleSquare10mm.png" alt="SingleSquare10mm" title="Example: SingleSquare10mm&#10;Size: 0.03 MB" style="max-height:400px; max-width:100%; object-fit:contain"></a>
@@ -667,8 +677,6 @@
       <b><a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/SingleSquare10mm">SingleSquare10mm</a></b><br>
       <small>(SingleSquare10mm)</small>
     </td>
-</tr>
-<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/SortHoles16"><img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/SortHoles16/SortHoles16.png" alt="SortHoles16" title="Example: SortHoles16&#10;Size: 0.149 MB" style="max-height:400px; max-width:100%; object-fit:contain"></a>
@@ -677,6 +685,8 @@
       <b><a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/SortHoles16">SortHoles16</a></b><br>
       <small>(SortHoles16)</small>
     </td>
+</tr>
+<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/SortHolesCWCCWNegativeQuarter"><img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/SortHolesCWCCWNegativeQuarter/SortHolesCWCCWNegativeQuarter.png" alt="SortHolesCWCCWNegativeQuarter" title="Example: SortHolesCWCCWNegativeQuarter&#10;Size: 0.147 MB" style="max-height:400px; max-width:100%; object-fit:contain"></a>
@@ -685,8 +695,6 @@
       <b><a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/SortHolesCWCCWNegativeQuarter">SortHolesCWCCWNegativeQuarter</a></b><br>
       <small>(SortHolesCWCCWNegativeQuarter)</small>
     </td>
-</tr>
-<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/SquareAndCircle"><img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/SquareAndCircle/square-and-circle.png" alt="square-and-circle" title="Example: SquareAndCircle&#10;Size: 0.14 MB" style="max-height:400px; max-width:100%; object-fit:contain"></a>
@@ -695,6 +703,8 @@
       <b><a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/SquareAndCircle">square-and-circle</a></b><br>
       <small>(SquareAndCircle)</small>
     </td>
+</tr>
+<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/SquaresInternalCusps"><img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/SquaresInternalCusps/squares-internal-cusps.png" alt="squares-internal-cusps" title="Example: SquaresInternalCusps&#10;Size: 0.012 MB" style="max-height:400px; max-width:100%; object-fit:contain"></a>
@@ -703,8 +713,6 @@
       <b><a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/SquaresInternalCusps">squares-internal-cusps</a></b><br>
       <small>(SquaresInternalCusps)</small>
     </td>
-</tr>
-<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/SquareWithCircleHoleSimpleR12"><img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/SquareWithCircleHoleSimpleR12/SquareWithCircleHoleSimpleR12.png" alt="SquareWithCircleHoleSimpleR12" title="Example: SquareWithCircleHoleSimpleR12&#10;Size: 0.006 MB" style="max-height:400px; max-width:100%; object-fit:contain"></a>
@@ -713,6 +721,8 @@
       <b><a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/SquareWithCircleHoleSimpleR12">SquareWithCircleHoleSimpleR12</a></b><br>
       <small>(SquareWithCircleHoleSimpleR12)</small>
     </td>
+</tr>
+<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/SquareWithHexagonHole"><img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/SquareWithHexagonHole/SquareWithHexagonHole.png" alt="SquareWithHexagonHole" title="Example: SquareWithHexagonHole&#10;Size: 0.141 MB" style="max-height:400px; max-width:100%; object-fit:contain"></a>
@@ -721,8 +731,6 @@
       <b><a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/SquareWithHexagonHole">SquareWithHexagonHole</a></b><br>
       <small>(SquareWithHexagonHole)</small>
     </td>
-</tr>
-<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/SquareWithOpenAndClosedCurves"><img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/SquareWithOpenAndClosedCurves/square-with-open-and-closed-curves.png" alt="square-with-open-and-closed-curves" title="Example: SquareWithOpenAndClosedCurves&#10;Size: 0.141 MB" style="max-height:400px; max-width:100%; object-fit:contain"></a>
@@ -731,6 +739,8 @@
       <b><a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/SquareWithOpenAndClosedCurves">square-with-open-and-closed-curves</a></b><br>
       <small>(SquareWithOpenAndClosedCurves)</small>
     </td>
+</tr>
+<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/SquareWithOpenCurve"><img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/SquareWithOpenCurve/square-with-open-curve.png" alt="square-with-open-curve" title="Example: SquareWithOpenCurve&#10;Size: 0.14 MB" style="max-height:400px; max-width:100%; object-fit:contain"></a>
@@ -739,8 +749,6 @@
       <b><a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/SquareWithOpenCurve">square-with-open-curve</a></b><br>
       <small>(SquareWithOpenCurve)</small>
     </td>
-</tr>
-<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/SquareWithSquareHole"><img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/SquareWithSquareHole/SquareWithSquareHole.png" alt="SquareWithSquareHole" title="Example: SquareWithSquareHole&#10;Size: 0.14 MB" style="max-height:400px; max-width:100%; object-fit:contain"></a>
@@ -749,6 +757,8 @@
       <b><a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/SquareWithSquareHole">SquareWithSquareHole</a></b><br>
       <small>(SquareWithSquareHole)</small>
     </td>
+</tr>
+<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/SquareWithSquareHole_WithOpenPolyline"><img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/SquareWithSquareHole_WithOpenPolyline/SquareWithSquareHole_WithOpenPolyline.png" alt="SquareWithSquareHole_WithOpenPolyline" title="Example: SquareWithSquareHole_WithOpenPolyline&#10;Size: 0.141 MB" style="max-height:400px; max-width:100%; object-fit:contain"></a>
@@ -757,16 +767,16 @@
       <b><a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/SquareWithSquareHole_WithOpenPolyline">SquareWithSquareHole_WithOpenPolyline</a></b><br>
       <small>(SquareWithSquareHole_WithOpenPolyline)</small>
     </td>
-</tr>
-<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
-        <a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/StraightLines"><img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/StraightLines/StraightLines.png" alt="StraightLines" title="Size: 0.145 MB" style="max-height:400px; max-width:100%; object-fit:contain"></a>
+        <a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/StraightLines"><img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/StraightLines/StraightLines.png" alt="StraightLines" title="Example: StraightLines&#10;Size: 0.145 MB" style="max-height:400px; max-width:100%; object-fit:contain"></a>
       </div>
       <br>
       <b><a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/StraightLines">StraightLines</a></b><br>
       <small>(StraightLines)</small>
     </td>
+</tr>
+<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/SymmetricLoops"><img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/SymmetricLoops/SymmetricLoops.png" alt="SymmetricLoops" title="Example: SymmetricLoops&#10;Size: 0.14 MB" style="max-height:400px; max-width:100%; object-fit:contain"></a>
@@ -775,8 +785,6 @@
       <b><a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/SymmetricLoops">SymmetricLoops</a></b><br>
       <small>(SymmetricLoops)</small>
     </td>
-</tr>
-<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/TestTopper2"><img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/TestTopper2/TestTopper2.png" alt="TestTopper2" title="Example: TestTopper2&#10;Size: 0.685 MB" style="max-height:400px; max-width:100%; object-fit:contain"></a>
@@ -785,6 +793,8 @@
       <b><a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/TestTopper2">TestTopper2</a></b><br>
       <small>(TestTopper2)</small>
     </td>
+</tr>
+<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/TestTopper2_O_letter"><img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/TestTopper2_O_letter/TestTopper2_O_letter.png" alt="TestTopper2_O_letter" title="Example: TestTopper2_O_letter&#10;Size: 0.171 MB" style="max-height:400px; max-width:100%; object-fit:contain"></a>
@@ -793,8 +803,6 @@
       <b><a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/TestTopper2_O_letter">TestTopper2_O_letter</a></b><br>
       <small>(TestTopper2_O_letter)</small>
     </td>
-</tr>
-<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/ThisIsWhereTheChildrenLive"><img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/ThisIsWhereTheChildrenLive/this%20is%20where%20children%20live.png" alt="this is where children live" title="Example: ThisIsWhereTheChildrenLive&#10;Size: 3.571 MB" style="max-height:400px; max-width:100%; object-fit:contain"></a>
@@ -803,6 +811,8 @@
       <b><a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/ThisIsWhereTheChildrenLive">this is where children live</a></b><br>
       <small>(ThisIsWhereTheChildrenLive)</small>
     </td>
+</tr>
+<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/ThreeInconsistentTriangles"><img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/ThreeInconsistentTriangles/ThreeInconsistentTriangles.png" alt="ThreeInconsistentTriangles" title="Example: ThreeInconsistentTriangles&#10;Size: 0.14 MB" style="max-height:400px; max-width:100%; object-fit:contain"></a>
@@ -811,8 +821,6 @@
       <b><a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/ThreeInconsistentTriangles">ThreeInconsistentTriangles</a></b><br>
       <small>(ThreeInconsistentTriangles)</small>
     </td>
-</tr>
-<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/TigletFile"><img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/TigletFile/Tiglet%20File.png" alt="Tiglet File" title="Example: TigletFile&#10;Size: 0.222 MB" style="max-height:400px; max-width:100%; object-fit:contain"></a>
@@ -821,6 +829,8 @@
       <b><a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/TigletFile">Tiglet File</a></b><br>
       <small>(TigletFile)</small>
     </td>
+</tr>
+<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/TigletFile_1mm_Raw_Offset_Segments"><img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/TigletFile_1mm_Raw_Offset_Segments/TigletFile_1mm_Raw_Offset_Segments.png" alt="TigletFile_1mm_Raw_Offset_Segments" title="Example: TigletFile_1mm_Raw_Offset_Segments&#10;Size: 0.428 MB" style="max-height:400px; max-width:100%; object-fit:contain"></a>
@@ -829,8 +839,6 @@
       <b><a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/TigletFile_1mm_Raw_Offset_Segments">TigletFile_1mm_Raw_Offset_Segments</a></b><br>
       <small>(TigletFile_1mm_Raw_Offset_Segments)</small>
     </td>
-</tr>
-<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/TigletFile_2mm_Raw_Offset_Segments"><img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/TigletFile_2mm_Raw_Offset_Segments/TigletFile_2mm_Raw_Offset_Segments.png" alt="TigletFile_2mm_Raw_Offset_Segments" title="Example: TigletFile_2mm_Raw_Offset_Segments&#10;Size: 0.428 MB" style="max-height:400px; max-width:100%; object-fit:contain"></a>
@@ -839,6 +847,8 @@
       <b><a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/TigletFile_2mm_Raw_Offset_Segments">TigletFile_2mm_Raw_Offset_Segments</a></b><br>
       <small>(TigletFile_2mm_Raw_Offset_Segments)</small>
     </td>
+</tr>
+<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/TwoInconsistentTriangles"><img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/TwoInconsistentTriangles/TwoInconsistentTriangles.png" alt="TwoInconsistentTriangles" title="Example: TwoInconsistentTriangles&#10;Size: 0.14 MB" style="max-height:400px; max-width:100%; object-fit:contain"></a>
@@ -847,8 +857,6 @@
       <b><a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/TwoInconsistentTriangles">TwoInconsistentTriangles</a></b><br>
       <small>(TwoInconsistentTriangles)</small>
     </td>
-</tr>
-<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/TwoNestedClusterGroups"><img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/TwoNestedClusterGroups/TwoNestedClusterGroups.png" alt="TwoNestedClusterGroups" title="Example: TwoNestedClusterGroups&#10;Size: 0.151 MB" style="max-height:400px; max-width:100%; object-fit:contain"></a>
@@ -857,6 +865,8 @@
       <b><a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/TwoNestedClusterGroups">TwoNestedClusterGroups</a></b><br>
       <small>(TwoNestedClusterGroups)</small>
     </td>
+</tr>
+<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/TwoNestedClusterGroups_Rotated"><img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/TwoNestedClusterGroups_Rotated/TwoNestedClusterGroups_Rotated.png" alt="TwoNestedClusterGroups_Rotated" title="Example: TwoNestedClusterGroups_Rotated&#10;Size: 0.151 MB" style="max-height:400px; max-width:100%; object-fit:contain"></a>
@@ -865,8 +875,6 @@
       <b><a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/TwoNestedClusterGroups_Rotated">TwoNestedClusterGroups_Rotated</a></b><br>
       <small>(TwoNestedClusterGroups_Rotated)</small>
     </td>
-</tr>
-<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/TwoSeparateClusters"><img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/TwoSeparateClusters/TwoSeparateClusters.png" alt="TwoSeparateClusters" title="Example: TwoSeparateClusters&#10;Size: 0.178 MB" style="max-height:400px; max-width:100%; object-fit:contain"></a>
@@ -875,6 +883,8 @@
       <b><a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/TwoSeparateClusters">TwoSeparateClusters</a></b><br>
       <small>(TwoSeparateClusters)</small>
     </td>
+</tr>
+<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/UShapedOpenPolyline"><img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/UShapedOpenPolyline/UShapedOpenPolyline.png" alt="UShapedOpenPolyline" title="Example: UShapedOpenPolyline&#10;Size: 0.14 MB" style="max-height:400px; max-width:100%; object-fit:contain"></a>
@@ -883,8 +893,6 @@
       <b><a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/UShapedOpenPolyline">UShapedOpenPolyline</a></b><br>
       <small>(UShapedOpenPolyline)</small>
     </td>
-</tr>
-<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/VariousCircularCuspsOneAsHole"><img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/VariousCircularCuspsOneAsHole/various-circular-cusps-one-as-hole.png" alt="various-circular-cusps-one-as-hole" title="Example: VariousCircularCuspsOneAsHole&#10;Size: 0.145 MB" style="max-height:400px; max-width:100%; object-fit:contain"></a>
@@ -893,6 +901,8 @@
       <b><a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/VariousCircularCuspsOneAsHole">various-circular-cusps-one-as-hole</a></b><br>
       <small>(VariousCircularCuspsOneAsHole)</small>
     </td>
+</tr>
+<tr>
     <td align="center" valign="bottom" style="width:50%">
       <div style="height:400px; display:flex; align-items:center; justify-content:center">
         <a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/VesaMount"><img src="https://raw.githubusercontent.com/langmuirsystems/dxf-samples/master/samples/VesaMount/Vesa%20Mount.png" alt="Vesa Mount" title="Example: VesaMount&#10;Size: 0.186 MB" style="max-height:400px; max-width:100%; object-fit:contain"></a>
@@ -901,9 +911,10 @@
       <b><a href="https://github.com/langmuirsystems/dxf-samples/tree/master/samples/VesaMount">Vesa Mount</a></b><br>
       <small>(VesaMount)</small>
     </td>
+    <td></td>
 </tr>
 </table>
 
-> *Total folders processed: 100*
-> *Images found: 100*
+> *Total folders processed: 101*
+> *Images found: 101*
 > *Folders without images: 0*
